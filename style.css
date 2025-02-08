@@ -1,0 +1,78 @@
+
+body {
+    background-color: black;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 10%; */
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+.card{
+    background-color: #121212;
+    border: 5px solid white;
+    box-shadow: 10px 10px 2px grey;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.welcome {
+    /* font-size: 2rem; */
+    font-family: "Shadows Into Light", serif;
+    font-weight: 400;
+    color: antiquewhite;
+}
+
+.font1 {
+    font-size: 20px;
+    padding: 20px 0;
+    font-family: "Shadows Into Light", serif;
+    font-weight: 400;
+    color: antiquewhite;
+}
+
+.font12 {
+    font-size: 20px;
+    padding: 20px 0;
+    font-family: "Shadows Into Light", serif;
+    font-weight: 400;
+    color: antiquewhite;
+}
+
+.btn .accept-btn {
+    border-radius: 5px;
+    border: solid whitesmoke;
+    background-color: black;
+}
+
+.btn .accept-btn a {
+    background-color: black;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.btn .decline-btn {
+    border-radius: 5px;
+    border: solid whitesmoke;
+    background-color: black;
+}
+
+.btn .decline-btn a {
+    background-color: black;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.ps-sent {
+    font-family: "Shadows Into Light", serif;
+    font-weight: 400;
+    color: antiquewhite;
+}
